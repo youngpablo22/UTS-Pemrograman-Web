@@ -1,0 +1,243 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {color: #36C;}
+
+a:hover {color: #06F;}
+
+body {
+	background: #4E5D3C url(img/bg.jpg);
+	color: #444;
+	font: normal 65.5% "Lucida Sans Unicode",sans-serif;
+	margin: 0;
+}
+
+p,blockquote,ul {margin-bottom: 1.2em;}
+
+h1 {font: normal 1.6em serif;}
+
+h2 {
+	font: bold 1em Verdana,serif;
+	margin: 3px 0 1px;
+}
+
+ul {margin-left: 1.8em;}
+
+
+blockquote p {padding: 6px;}
+
+.clearer {clear: both;}
+
+.left {float: left;}
+
+.right {float: right;}
+
+img.left {margin: 0 18px 6px 0;}
+
+.divider {
+	background: url(img/divider.gif) no-repeat;
+	height: 20px;
+	margin: 24px 0;
+}
+
+.container {
+	background: url(img/bgcontainer.jpg) repeat-y center top;
+	margin: 0 auto;
+	width: 736px;
+}
+
+.gfx {
+	background: url(img/gfx.png) no-repeat;
+	float: left;
+	height: 140px;
+	margin-top: 12px;
+	width: 52px;
+}
+
+.top {
+	background: url(img/bgcontent.gif) no-repeat 0 -4%;
+	float: left;
+	text-align: center;
+	width: 632px;
+}
+
+.header {
+	background: #56644A url(img/header.jpg) no-repeat;
+	color: #FFC;
+	font-size: 1.4em;
+	height: 232px;
+	padding-right: 270px;
+}
+
+.header h1 {
+	font: normal 2.2em serif,sans-serif;
+	padding: 62px 0 34px 0;
+}
+
+.pattern {
+	background: #334127 url(img/pattern.gif) repeat-x;
+	clear: both;
+	height: 12px;
+}
+
+.navigation {margin: 0 24px;}
+
+.navigation a {
+	color: #6C7151;
+	font: normal 1.9em serif;
+	line-height: 50px;
+	margin: 0 16px;
+	text-decoration: none;
+}
+.navigation a:hover,.navigation #selected {
+	color: #2C3111;
+}
+
+.content {
+	background: url(img/bgcontent.gif) no-repeat;
+	clear: both;
+	font-size: 1.3em;
+	margin: 0 52px;
+	padding: 0 38px 12px;
+}
+.content .spacer {
+	height: 42px;
+}
+
+.item {clear: both;}
+
+.item img {border: 1px dashed #8A6;}
+
+.item .title {
+	color: #445044;
+	font: normal 2.4em serif;
+}
+
+.item .title:first-letter {
+	display: block;
+	float: left;
+	font-size: 1.4em;
+}
+
+.item .metadata {
+	color: #666;
+	font-size: 0.9em;
+	float: left;
+	padding: 0 0 6px 4px;
+}
+
+.item .body {
+	clear: both;
+}
+
+.item img {
+	display: block;
+	background: url(img/tentang1.jpeg) no-repeat;
+	margin: 10px auto;
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #264b02;
+	border-radius: 5px;
+  }
+
+  .jenis1-img {
+	width: 100px; 
+	height: auto; 
+	float: right; 
+	margin: 0 10px 10px 0; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+  }
+  .jenis2-img {
+	width: 100px; 
+	height: auto; 
+	float: left; 
+	margin: 0 10px 10px 0; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+  }  .jenis3-img {
+	width: 100px; 
+	height: auto; 
+	float: left; 
+	margin: 0 10px 10px 0; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+  }  .jenis4-img {
+	width: 100px; 
+	height: auto; 
+	float: right; 
+	margin: 0 10px 10px 0; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+  }  .jenis5-img {
+	width: 100px; 
+	height: auto; 
+	float: left; 
+	margin: 0 10px 10px 0; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+  }  .jenis6-img {
+	width: 100px; 
+	height: auto; 
+	float: left; 
+	margin: 0 10px 10px 0; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+  }  .jenis7-img {
+	width: 100px; 
+	height: auto; 
+	float: left; 
+	margin: 0 10px 10px 0; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+  }
+
+.footer {
+	background: url(img/bgfooter.gif) no-repeat;
+	color: #666;
+	font-size: 1.1em;
+	line-height: 41px; 
+	margin: 0 auto;
+	text-align: center;
+	width: 632px;
+}
+
+.footer a {
+	color: #666;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e6f6d8;
+  color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #8A6;
+}
+
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover a { color: #2C3111; }
